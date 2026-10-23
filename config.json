@@ -1,0 +1,21 @@
+{
+  "samples": "/home/tnguyen25/Documents/Projects/RNAseq/RNAseq/Project_01/4_Pipeline_02/rnaseq_pipeline/samples.tsv",
+  "results_dir": "/home/tnguyen25/Documents/Projects/RNAseq/RNAseq/Project_01/4_Pipeline_02/rnaseq_pipeline/results",
+  "case": "treated",
+  "control": "control",
+  "threads": 8,
+  "star_index": "/home/tnguyen25/Documents/Projects/RNAseq/RNAseq/reference/Genome/STAR_Index",
+  "kallisto_index": "/home/tnguyen25/Documents/Projects/RNAseq/RNAseq/reference/Transcriptome/Ensemble/human_GRCh38_transcriptome.index",
+  "gtf": "/home/tnguyen25/Documents/Projects/RNAseq/RNAseq/reference/Genome/Homo_sapiens.GRCh38.116.gtf",
+  "gmt": "/home/tnguyen25/Documents/Projects/RNAseq/RNAseq/reference/Genome/h.all.v2026.1.Hs.symbols.gmt",
+  "strand": "auto",
+  "existing_star_dir": "/home/tnguyen25/Documents/Projects/RNAseq/RNAseq/Project_01/4_Pipeline_02/rnaseq_pipeline/results/02_star",
+  "read_length": 100,
+  "variable_read_length": false,
+  "allow_clipping": false,
+  "rmats_command": [
+    "rmats.py"
+  ],
+  "rmats_fdr": 0.05,
+  "rmats_delta_psi": 0.1
+}
